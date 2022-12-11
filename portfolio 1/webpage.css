@@ -1,0 +1,46 @@
+
+/* all page */
+.main{
+    background-color: gray;
+}
+
+
+/* grid home page */
+.grid {
+    height: 93vh;
+    width: 100vw;
+    background-image: url(./images/Black1234.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+/* grid home page */
+.name{
+    /* border: 1px solid yellow; */
+    margin-top: 5rem;
+}    
+
+/* contact */  
+.content {
+    color: white;
+    /* border: 1px solid white; */
+   margin-top: 4rem;
+}
+
+/* home page logo */
+.logo{
+    /* border: 1px solid rgb(16, 235, 49); */
+    height: 30rem;
+    
+}
+
+/* About cards */
+.card{
+    box-shadow: 10px 15px 10px;
+    transition: all ease .6s;
+}
+.card:hover{
+
+    cursor: pointer;
+    rotate: 10deg;
+}
